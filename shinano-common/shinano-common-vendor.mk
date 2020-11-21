@@ -66,8 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
-    vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
-    vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/shinano-common/proprietary/vendor/etc/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/flashled_calc_parameters.cfg \
     vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/clearphase_sp_param.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/clearphase_sp_param.bin \
     vendor/sony/shinano-common/proprietary/vendor/etc/sony_effect/effect_params.data:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/effect_params.data \
@@ -143,6 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:$(TARGET_COPY_OUT_VENDOR)/camera/flash.dat \
     vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:$(TARGET_COPY_OUT_VENDOR)/camera/jpeg_fsc.dat \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/brcm/brcmfmac4339-sdio.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4339-sdio.bin \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/brcm/brcmfmac4339-sdio_LICENSE.TXT:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4339-sdio_LICENSE.TXT \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b00 \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b01 \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaster/keymaster.b02 \
